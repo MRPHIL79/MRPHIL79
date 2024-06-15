@@ -1,9 +1,6 @@
 cache
-            
-  uses: actions/cache@v4.0.2
-  with:
     # A list of files, directories, and wildcard patterns to cache and restore
-    path: Lists/for/files/and/directories
+    path: Lists/for/files/and/directories/
     # An explicit key for restoring and saving the cache
     key: restore/save cache
     # An ordered list of keys to use for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case.
